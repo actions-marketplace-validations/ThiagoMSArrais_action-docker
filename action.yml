@@ -16,6 +16,9 @@ inputs:
 outputs:
   comment-id:
     description: "ID do comentário adicionado"
+branding:
+  icon: 'archive'
+  color: 'gray-dark'
 runs:
   using: 'docker'
   image: 'Dockerfile'
